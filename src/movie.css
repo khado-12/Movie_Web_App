@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    gap: 3rem;
+  }
+  
+  .grid-4-col {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .card {
+    width: 25rem;
+    max-width: 30rem;
+    min-height: 30rem;
+    border-radius: 1rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

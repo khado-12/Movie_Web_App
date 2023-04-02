@@ -1,5 +1,6 @@
 import { NavLink, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
+import './singlemovie.css';
 
 const SingleMovie = () => {
   const { id } = useParams();
@@ -22,7 +23,7 @@ const SingleMovie = () => {
           <img src={movie.Poster} alt="" />
         </figure>
         <div className="card-content">
-          <p className="title">{movie.Title}</p>
+          <p className="title"><b>{movie.Title}</b></p>
           <p className=""></p>
           <p className="card-text">Rlease: {movie.Released}</p>
           <p className="card-text">Genre: {movie.Genre}</p>

@@ -1,5 +1,6 @@
 import React from "react";
 import { useGlobalContext } from "./context";
+import './search.css'
 
 const Search = () => {
   const { query, setQuery, isError } = useGlobalContext();

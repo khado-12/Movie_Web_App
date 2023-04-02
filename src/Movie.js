@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useGlobalContext } from "./context";
+import './movie.css'
 
 const imgUrl = "https://via.placeholder.com/200/200";
 
@@ -12,7 +13,7 @@ const Movie = () => {
 
   return (
     <>
-      {/* if movie is present then only show data else remain as it is  */}
+    
       <section className="movie-page">
         <div className="grid grid-4-col">
           {movie
